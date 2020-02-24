@@ -14,7 +14,7 @@ Jacob Sowanick
 Trinity Polk
 Lauren Huttula
 
-The name of our lanaguge is ________. The language paradigm is  ________. The most interesting features we have decided to include is ______. 
+The name of our lanaguge is ________. The language paradigm is imperative. The most interesting features we have decided to include is ______. 
 
 INSTRUCTIONS 
 1.
