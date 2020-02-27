@@ -91,3 +91,5 @@ sem (Mult a b) = case (sem a, sem b) of
 
 
 -- Syntactic Sugar
+-- Goals:
+--    
