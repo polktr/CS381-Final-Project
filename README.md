@@ -8,15 +8,19 @@ If your language implementation is intended to be run from GHCi, which module sh
 If your language implementation is intended to be run from the command line, what command (precisely) should be executed?
 You should provide the precise commands needed (in GHCi or the command line) to execute both your good examples and your bad examples, together with the expected output. If the expected output for many bad examples are the same, you can combine these into one example. */
 
-TEAM MEMBERS:
-Megan Liles
-Jacob Sowanick
-Trinity Polk
-Lauren Huttula
+TEAM MEMBERS:  
+Megan Liles -- lilesme
+Jacob Sowanick -- sowanicj
+Trinity Polk -- polktr
+Lauren Huttula -- huttulal
 
-The name of our lanaguge is ________. The language paradigm is imperative. The most interesting features we have decided to include is ______. 
+** The name of our lanaguge is MadeForNerds. 
 
-INSTRUCTIONS 
+** The language paradigm is imperative. 
+
+** The most interesting features we have decided to include other than the main feature menu are Strings and String Operations and Lists/Arrays
+
+EXECUTION INSTRUCTIONS 
 1.
 2.
 3.
