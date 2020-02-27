@@ -9,10 +9,10 @@ If your language implementation is intended to be run from the command line, wha
 You should provide the precise commands needed (in GHCi or the command line) to execute both your good examples and your bad examples, together with the expected output. If the expected output for many bad examples are the same, you can combine these into one example. */
 
 TEAM MEMBERS:  
-Megan Liles -- lilesme
-Jacob Sowanick -- sowanicj
-Trinity Polk -- polktr
-Lauren Huttula -- huttulal
+1. Megan Liles -- lilesme
+2. Jacob Sowanick -- sowanicj
+3. Trinity Polk -- polktr
+4. Lauren Huttula -- huttulal
 
 ** The name of our lanaguge is MadeForNerds. 
 
