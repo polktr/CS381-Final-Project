@@ -62,4 +62,32 @@ data Value
 --   type Value = Maybe (Either Int Float Bool String)
 
 
--- Valuation function
+-- Valuation function and helper functions
+sem :: Expr -> Value
+sem (LitI i) = I i
+sem (LitF f) = F f
+sem (Add a b) = case (sem a, sem b) of
+                    (I a, I b) -> I (a+b)
+                    (I a, F b) -> F ((fromInteger(toInteger a))+b)
+                    (F a, I b) -> F ((fromInteger(toInteger b))+a)
+                    (F a, F b) -> F (a+b)
+                    _ -> Error
+sem (Sub a b) = case (sem a, sem b) of
+                    (I a, I b) -> I (a-b)
+                    (I a, F b) -> F ((fromInteger(toInteger a))-b)
+                    (F a, I b) -> F (a-(fromInteger(toInteger b)))
+                    (F a, F b) -> F (a-b)
+                    _ -> Error
+sem (Mult a b) = case (sem a, sem b) of
+                    (I a, I b) -> I (a*b)
+                    (I a, F b) -> F ((fromInteger(toInteger a))*b)
+                    (F a, I b) -> F (a*(fromInteger(toInteger b)))
+                    (F a, F b) -> F (a*b)
+                    _ -> Error
+--sem (Div a b) = 
+--sem (Equ a b) = 
+--sem (Let v a b) = 
+--sem (Ref v) = v
+
+
+-- Syntactic Sugar
