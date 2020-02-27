@@ -21,6 +21,6 @@ Lauren Huttula -- huttulal
 ** The most interesting features we have decided to include other than the main feature menu are Strings and String Operations and Lists/Arrays
 
 EXECUTION INSTRUCTIONS 
-1.
-2.
+1. Run ghci.
+2. Load module ___
 3.
